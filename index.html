@@ -9,38 +9,34 @@
 
 </head>
 <body id="wrapper">
-    
-    <div class="container">
+    <div id="container">
+
         <header>
-            <h1>WELCOME TO ALFANI MEDIA <br>RANDOM PICKING PAGE!</h1>
+            <h1>WELCOME TO ALFANI MEDIA <br>RANDOM PICKING PAGE</h1>
         </header>
-        <hr>
+
+         <hr>
+        <p class="ptag" >Please fill in the information below:</p>
+
+        <form name="subscribe" id="subscribe_frm" action="#" >
+            <div>
+                <p><label for="name">Your Name: </label><input type="text" name="name" id="txt_name" placeholder="Please enter your name here"></p>
+                <p><label for="email">Your Email: </label><input type="text" name="email" id="txt_email" placeholder="Please enter your email address here"></p>
+                
+                <p class="ptag">Please Click on the Box below to indicate your Pick:</p>
+                <div class="btns">
+                    <p><button type="button" name="submit" value="submit" onclick="processFormData();">Pick</button></p>
+                    <!--<p><button type="button" name="submit" value="submit" onclick="processFormData();"></button></p>
+                    <p><button type="button" name="submit" value="submit" onclick="processFormData();"></button></p> 
+                    <p><button type="button" name="submit" value="submit" onclick="processFormData();"></button></p>
+                    <p><button type="button" name="submit" value="submit" onclick="processFormData();"></button></p>
+                    <p><button type="button" name="submit" value="submit" onclick="processFormData();"></button></p>-->
+                </div>
+            </div>
+        </form>
     </div>
-    <p class="ptag" >Please fill in the information below:</p>
-
-<form name="subscribe" id="subscribe_frm" action="#" >
-    <div>
-        <p><label for="name">Your Name: </label><input type="text" name="name" id="txt_name" placeholder="Please enter your name here"></p>
-        <p><label for="email">Your Email: </label><input type="text" name="email" id="txt_email" placeholder="Please enter your email address here"></p>
-        
-        <p class="ptag">Please select a number from the list below:</p>
-
-        <p><label for="pick_choice">Pick you choice: <select name="pick_choice" id="picker">
-                    <option value="mango">1</option>
-                    <option value="apple">2</option>
-                    <option value="oranges">3</option>
-                    <option value="pawpaw">4</option>
-                    <option value="guava">5</option>
-                    <option value="strawberry">6</option>
-                </select></p>
-        <p><button type="button" name="submit" value="submit" onclick="processFormData();">Submit</button></p>
-    </div>
-
-</form>
-
+        <p><a href="www.alfanimedia.com">Visit Alfani Media Website</a></p>
 
     <script src="js/main.js"></script> 
-
-
 </body>
 </html>

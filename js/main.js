@@ -23,10 +23,10 @@ function processFormData() {
 
     var name = trim(name_element.value);
     var email = trim(email_element.value);
-    var pick_choice = pick_element.value;
+    var pick_choice = Math.floor(Math.random() * 6) + 1;
 
     var error_message = 'Please enter the correct details: \n\n';
-    var data = 'Thank you for picking Mr.' +' '+ name + ' '+ 'Please take a screenshot of this page! \n\n';
+    var data = 'Thank you for picking Mr.' +' ' + name + '.' +' ' + 'Please take a screenshot of this page! \n\n';
 
     var error_flag = false;
 
