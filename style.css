@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: blue;
+}
+
+#wrapper{
+    display: grid;
+    place-items: center;
+    background-color: rgb(0, 92, 92);
+}
+
+header h1{
+    padding: 10px;
+    font-size: 20px;
+    color: #48d1cc;
+    text-align: center;
+}
+
+.ptag{
+    font-weight: 100;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+input[type=text],
+input[type=text] {
+    width: 100%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: rgba(255, 0, 0, 0.466);
+    columns: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+
+p{
+    color: #fff;
+}
